@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="ACoffee shop">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <!-- Font and icon -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Playfair+Display&display=swap" rel="stylesheet">
+
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mmenu.css">
+
+
+        <title>Energy Solution</title>
+       
+    </head>
+    <body>
+        <div id="page">
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+
+           
+            <!-- Masthead -->
+            <section class="masthead">
+                <picture>
+                    <source media="(min-width:48em)" srcset="img/masthead.jpg">
+                <img src="img/masthead.jpg" alt="masthead img">
+                </picture>
+            </section>
+
+            <!-- End masthead -->
+    <!-- Main content -->
+    <div class="wrapper">
+    <main>
+        
+        <div class="controls">
+            
+                <button id="active-button">Bio-Energy</button>
+                <button>Hydro</button>
+                <button>Wind</button>
+            </ul>
+        </div>
+        <div class="dynamic-content">
+            
+        </div>
+    </main>
+     <!-- End main content -->
+
+    <!-- Footer -->
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <div class="main-footer">
+            <div class="footer-head">
+                 <h3>Social Media</h3>
+            </div>
+
+            <div class="footer-info">
+                <div class="social-media">
+                    <div class="icon">
+                    <img src="img/facebook.png" class="social-icon" alt="facebook">
+                    <img src="img/insta.png" class="social-icon" alt="insta">
+                </div>
+            </div>
+             </div>
+
+        <div class="copyright">
+             <p>All Rights Reserved. © Copyright 2022</p>
+            </div>
+        </div>
+   
+    </footer>
+
+    
+
+    <!-- Script -->
+    <script src="./js/index.js"></script>
+    <script src="js/mmenu.js"></script>
+        <script>
+            document.addEventListener(
+                "DOMContentLoaded", () => {
+                    new Mmenu( "#menu", {
+                       "extensions": [
+                          "position-right",
+                          "theme-light"  
+                       ]
+                       
+                    });
+                }
+            );
+        </script>
+</body>
+</html>
